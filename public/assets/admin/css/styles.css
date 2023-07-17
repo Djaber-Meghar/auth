@@ -8,8 +8,13 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 /* ======= Base ======= */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800&display=swap');
+
+* {
+  font-family: 'Tajawal';
+}
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Tajawal', arial, sans-serif;
   color: #494d55;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
