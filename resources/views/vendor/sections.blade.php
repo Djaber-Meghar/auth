@@ -4,7 +4,12 @@
 
             <div class="collapse navbar-collapse" id="topnav-menu-content">
                 <ul class="navbar-nav">
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route("general.index") }}">
+                            <i class="mdi mdi-view-module"></i> الإعلانات العامة
+                        </a> 
+                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route("car.index") }}">
                             <i class="mdi mdi-car-side mr-2"></i> سيارات
@@ -41,14 +46,16 @@
                         </a> 
                     </li>
                     
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route("general.index") }}">
-                            <i class="fab fa-telegram-plane mr-2"></i> الإعلانات العامة
-                        </a> 
-                    </li>
 
                 </ul>
             </div>
         </nav>
     </div>
 </div>
+
+<style>
+    .nav-link:hover {
+        background-color:white;
+        color:black;
+    }
+</style>
